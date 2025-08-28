@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+
+.desktop {
+  width: 100%;
+  height: 100vh;
+  background-color: hsl(212, 45%, 89%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container {
+  width: 22%;
+  height: auto;
+  margin: 5rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 1rem 2.5rem 1rem;
+  row-gap: 1.5rem;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 20px;
+  box-shadow: 0 25px 25px 0 rgba(0, 0, 0, 0.05);
+}
+
+.main-container:hover {
+  box-shadow: 0 25px 25px 0 rgba(0, 0, 0, 0.15);
+  transition: 00ms;
+}
+
+.qr-image-container {
+  width: 100%;
+  height: auto;
+  background-color: white;
+}
+
+.qr-image-container img {
+  width: 100%;
+  height: auto;
+}
+
+.text-group {
+  width: 100%;
+  height: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 1rem;
+}
+
+.heading-text {
+  width: 100%;
+  height: auto;
+}
+
+.heading-text h1 {
+  font-family: "Outfit", sans-serif;
+  font-size: clamp(1.375rem, 1vw + 1rem, 1.375rem);
+  line-height: 120%;
+  color: hsl(218, 44%, 22%);
+  font-weight: 700;
+  text-align: center;
+}
+
+.body-text {
+  width: 100%;
+  height: auto;
+}
+
+.body-text p {
+  font-size: 0.9375rem;
+  line-height: 150%;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: hsl(216, 15%, 48%);
+}
