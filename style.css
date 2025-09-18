@@ -87,3 +87,34 @@
   text-align: center;
   color: hsl(216, 15%, 48%);
 }
+
+/* Tablet styles (max-width: 900px) */
+@media (max-width: 900px) {
+  .main-container {
+    width: 60%;
+    padding: 1rem 0.5rem 2rem 0.5rem;
+  }
+  .text-group {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+}
+
+/* Mobile styles (max-width: 600px) */
+@media (max-width: 600px) {
+  .main-container {
+    width: 90%;
+    margin: 2rem auto;
+    padding: 0.5rem 0.25rem 1.5rem 0.25rem;
+  }
+  .heading-text h1 {
+    font-size: 1.1rem;
+  }
+  .body-text p {
+    font-size: 0.85rem;
+  }
+  .text-group {
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+  }
+}
